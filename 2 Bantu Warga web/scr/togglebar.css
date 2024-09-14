@@ -1,0 +1,56 @@
+.list__main{
+    width: 42px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+     
+  }
+  
+ 
+  
+  [class^="bar__"]{
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: rgb(4, 132, 245);
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+  }
+  .bar__top{
+    top: 0;
+  }
+  .bar__middle{
+    top: 10px;
+    opacity: 1;
+  }
+  
+  .bar__bottom{
+    top: 20px;
+  }
+  
+  .active  .list__main .bar__top{
+    transform: rotate(-45deg);
+    top: 10px;
+  }
+  
+  .active .list__main .bar__middle{
+     opacity: 0;
+  }
+  
+  .active  .list__main .bar__bottom{
+    transform: rotate(45deg);
+    top: 10px;
+  }
+
+  #list{
+    display: none;
+  }
+
+
+@media (max-width: 850px) {
+
+  #list{
+    display: block;
+  }
+  
+}

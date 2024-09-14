@@ -1,0 +1,119 @@
+         /* --============= google font add ============--- */
+         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+
+
+        /* ---- =========== Global css ============ */
+        *{
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+
+        }
+        :root{
+              --primary-g: #06c167;
+              --secondary-g: #e6f9f0;
+              --third-g: #f3fcf7;
+              --four-g: #f0f1ec;
+              --primary-b: #1d1d1f;
+              --secondary-b: #394149;
+              --third-b: #767675;
+
+
+              --inter-font: "Inter", sans-serif;
+        }
+
+        .container{
+           max-width: 85%; 
+           margin: auto;  
+           display: block;
+        }
+
+        .logo{
+           color: var(--primary-g);
+           font-size: 32px;
+           font-family: var(--inter-font);
+           line-height: 38.73px;
+           text-transform: uppercase;
+        }
+
+        ul{
+              list-style-type: none;
+        }
+
+        a{
+              display: inline-block;
+              text-decoration: none;
+        }
+
+        .btn{
+              display: flex;
+              align-items: center;
+              gap: 20px;
+              font-size: 16px;
+              border: none;
+              padding: 10px 40px;
+        }
+
+        .btn-green{
+              background-color: var(---primery-g) ;
+              color: var(--four-g)
+        }
+
+
+       /* -- ============== header start =============== - */
+         .header-top-area{
+            background-color: var(--secondary-g);
+         }
+       /* -- ============== header end =============== - */
+ 
+ 
+ 
+ 
+       /* -- ============== header start =============== --> */
+       /* -- ============== header end =============== --> */
+ 
+ 
+ 
+ 
+       /* <!-- ============== service start =============== --> */
+       /* <!-- ============== service end =============== --> */
+ 
+ 
+ 
+ 
+       /* -- ============== our benefit start =============== --> */
+       /* -- ============== our benefit end =============== --> */
+ 
+ 
+ 
+ 
+       /* -- ============== our stars start =============== --> */
+       /* -- ============== our stars end =============== --> */
+ 
+   
+ 
+ 
+       /* -- ============== features start =============== --> */
+       /* -- ============== features end =============== --> */
+ 
+ 
+ 
+ 
+       /* -- ============== product start =============== --> */
+       /* -- ============== product end =============== --> */
+ 
+ 
+ 
+ 
+       /* -- ============== contact start =============== --> */
+       /* -- ============== contact end =============== --> */
+ 
+ 
+ 
+ 
+       /* -- ============== footer start =============== --> */
+       /* -- ============== footer end =============== --> */
