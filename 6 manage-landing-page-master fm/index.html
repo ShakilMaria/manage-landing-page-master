@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Manage landing page</title>
+
+  <!--main css -->
+  <link rel="stylesheet" href="src/output.css">
+   
+  </style>
+</head>
+<body class="font-be_vietnam_pro">
+
+  <!-- ================ nav start ============== -->
+   <header>
+      <div class="header_area container flex items-center justify-between">
+           <div class="logo cursor-pointer py-10"><img src="images/logo.svg" alt=""></div>
+            
+            <ul id="menu" class=" items-center gap-5 fixed lg:static  inset-x-0 mx-5 lg:mx-0   flex 
+            flex-col lg:flex-row top-24 bg-white lg:bg-transparent shadow-lg lg:shadow-none rounded-xl lg:rounded-none     h-0 lg:h-auto overflow-hidden transition ease-in-out duration-300">
+              <li><a class="text-Primary_blue font-extrabold hover:text-Dark_Grayish_Blue" href="">Pricing</a></li>
+              <li><a class="text-Primary_blue font-extrabold hover:text-Dark_Grayish_Blue" href="">Product</a></li>
+              <li><a class="text-Primary_blue font-extrabold hover:text-Dark_Grayish_Blue" href="">About Us</a></li>
+              <li><a class="text-Primary_blue font-extrabold hover:text-Dark_Grayish_Blue" href="">Careers</a></li>
+              <li><a class="text-Primary_blue font-extrabold hover:text-Dark_Grayish_Blue" href="">Community</a></li>
+      </ul>
+           
+           
+           <button class="hidden lg:block font-bold  py-3 px-9 rounded-3xl bg-Primary_red text-white border hover:shadow-lg hover:shadow-Very_Pale_Red">Get Started</button>
+           <div class="toggle_btn lg:hidden cursor-pointer">
+               <img src="images/icon-hamburger.svg" alt="toggle">
+           </div>
+      </div>
+   </header>
+   <!-- ================ nav end ================-->
+
+
+  <!-- ================ hero start ============== -->
+   <div class="hero py-20">
+    <div class="hero_area container flex gap-10 lg:gap-20 flex-col lg:flex-row items-center justify-between">
+         <div class="hero_left flex-1 order-last lg:order-first text-center lg:text-left">
+             <div class="hero_left_heading">
+               <h1 class="text-Primary_blue text-6xl lg:text-7xl pt-10 pb-6 font-bold">  Bring everyone together to build better products.</h1>
+             </div>
+             <p class="text-justify
+             text-Dark_Grayish_Blue   text-lg px-10 lg:px-0">  Manage makes it simple for software teams to plan day-to-day 
+              tasks while keeping the larger team goals in view.</p>
+              <button class="font-bold  py-3 px-9 my-10 rounded-3xl bg-Primary_red text-white border hover:border-Primary_red hover:bg-transparent hover:text-Primary_red box-border">Get Started</button>
+         </div>
+         <div class="hero_right flex-1 ">
+           <img src="images/illustration-intro.svg" alt="image">
+         </div>
+    </div>
+   </div>
+   <!-- ================ hero end ================-->
+
+
+  <!-- ================ about start ============== -->
+   <div class="about">
+       <div class="about_area container flex gap-10 lg:gap-20 flex-col lg:flex-row items-start justify-between pb-20">
+            <div class="about_left ">
+               <h3 class="text-Primary_blue text-5xl pb-10 font-bold text-center lg:text-start">What’s different about Manage?</h3>
+               <p class="text-Dark_Grayish_Blue text-lg ">  Manage provides all the functionality your team needs, without 
+                the complexity. Our software is tailor-made for modern digital 
+                product teams. </p>
+            </div>
+            <div class="about_right ">
+               <ul>
+                   <li class="flex items-start justify-between gap-10 mb-8">
+                      <div class="counter py-1 px-6 rounded-2xl bg-Primary_red text-white">1</div>
+                      <div class="content">
+                          <h4 class="text-2xl text-Primary_blue font-bold pb-5"> Track company-wide progress</h4>
+                          <p class="text-Dark_Grayish_Blue font-semibold text-justify">  See how your day-to-day tasks fit into the wider vision. Go from 
+                            tracking progress at the milestone level all the way done to the 
+                            smallest of details. Never lose sight of the bigger picture again.</p>
+                      </div>
+                   </li>
+                   <li class="flex items-start justify-between gap-10 mb-8">
+                      <div class="counter py-1 px-6 rounded-2xl bg-Primary_red text-white">1</div>
+                      <div class="content">
+                          <h4 class="text-2xl text-Primary_blue font-bold pb-5"> Advanced built-in reports</h4>
+                          <p class="text-Dark_Grayish_Blue font-semibold text-justify">  Set internal delivery estimates and track progress toward company 
+                            goals. Our customisable dashboard helps you build out the reports 
+                            you need to keep key stakeholders informed..</p>
+                      </div>
+                   </li>
+                   <li class="flex items-start justify-between gap-10 mb-8">
+                      <div class="counter py-1 px-6 rounded-2xl bg-Primary_red text-white">1</div>
+                      <div class="content">
+                          <h4 class="text-2xl text-Primary_blue font-bold pb-5">  Everything you need in one place</h4>
+                          <p class="text-Dark_Grayish_Blue font-semibold text-justify">    Stop jumping from one service to another to communicate, store files, 
+                            track tasks and share documents. Manage offers an all-in-one team 
+                            productivity solution..</p>
+                      </div>
+                   </li>
+               </ul>
+            </div>
+       </div>
+   </div>
+   <!-- ================ about end ================-->
+
+
+
+  <!-- ================ our team start ============== -->
+   <div class="our_team">
+       <h3 class="text-Primary_blue text-5xl pb-10 font-bold text-center"> What they’ve said</h3>
+       <div class="team-members grid lg:grid-cols-3 gap-20 lg:5 mt-10">
+          <div class="team_member bg-Very_Light_Gray flex flex-col items-center">
+              <img class="w-28 relative -top-10" src="images/avatar-anisha.png" alt="">
+              <h6 class="text-2xl font-semibold text-Primary_blue relative -top-6"> Anisha Li</h6>
+              <p class="text-lg text-Dark_Grayish_Blue px-6  pb-5 text-center">“Manage has supercharged our team’s workflow. The ability to maintain 
+                visibility on larger milestones at all times keeps everyone motivated.”</p>
+          </div>
+          <div class="team_member bg-Very_Light_Gray flex flex-col items-center">
+              <img class="w-28 relative -top-10" src="images/avatar-ali.png" alt="">
+              <h6 class="text-2xl font-semibold text-Primary_blue relative -top-6"> 
+                Ali Bravo</h6>
+              <p class="text-lg text-Dark_Grayish_Blue px-6  pb-5 text-center"> “We have been able to cancel so many other subscriptions since using 
+                Manage. There is no more cross-channel confusion and everyone is much 
+                more focused.”</p>
+          </div>
+          <div class="team_member bg-Very_Light_Gray flex flex-col items-center">
+              <img class="w-28 relative -top-10" src="images/avatar-richard.png" alt="">
+              <h6 class="text-2xl font-semibold text-Primary_blue relative -top-6"> Richard Watts</h6>
+              <p class="text-lg text-Dark_Grayish_Blue px-6 pb-5 text-center"> “Manage allows us to provide structure and process. It keeps us organized 
+                and focused. I can’t stop recommending them to everyone I talk to!”</p>
+          </div>
+       </div>
+       <button class="font-bold  py-3 px-9 block mx-auto mt-10 mb-20 rounded-3xl bg-Primary_red text-white border hover:border-Primary_red hover:bg-transparent hover:text-Primary_red">Get Started</button>
+   </div>
+   <!-- ================ our team end ================-->
+
+
+  <!-- ================ footer start ============== -->
+   <footer>
+       <div class="footer_top bg-Primary_red">
+        <div class="container flex justify-between items-center flex-col md:flex-row gap-10 py-20">
+          <h3 class="text-white text-5xl  font-bold text-center center md:text-start w-[60%]"> Simplify how your team works today.</h3>
+          <button class="font-bold  py-3 px-9 block       rounded-3xl bg-white text-Primary_red border hover:border-white hover:bg-transparent hover:text-white   ">Get Started</button>
+        </div>
+        
+       </div>
+
+       <div class="footer_bottom bg-Very_Dark_Blue ">
+
+           <div class="footer_bottom_area  container grid gap-6  grid-cols-12  pt-40 pb-60 md:pb-40 relative">
+
+            <div class="item col-span-12 md:col-span-3 flex flex-col justify-between items-center md:items-start min-h-[100px] order-4 md:order-1">
+
+              <div class="logo order-2 md:order-1 cursor-pointer"><img src="images/logo.svg" alt=""></div>
+
+              <div class="social_icon order-1 md:order-2 flex gap-4 ">
+                <img class="cursor-pointer w-8"  src="images/icon-facebook.svg" alt="facebook">
+                <img class="cursor-pointer w-8" src="images/icon-youtube.svg" alt="youtube">
+                <img class="cursor-pointer w-8" src="images/icon-twitter.svg" alt="twitter">
+                <img class="cursor-pointer w-8" src="images/icon-pinterest.svg" alt="pinterest">
+                <img class="cursor-pointer w-8" src="images/icon-instagram.svg" alt="instagram">
+                  
+              </div>
+           </div>
+           <div class="item col-span-6 md:col-span-3 order-2">
+             <ul class="pl-14 md:pl-0">
+               <li class="pb-5"><a class="text-white hover:text-Primary_red" href="">Home</a></li>
+               <li class="pb-5"><a class="text-white hover:text-Primary_red" href="">Pricing</a></li>
+               <li class="pb-5"><a class="text-white hover:text-Primary_red" href="">Products</a></li>
+               <li class="pb-5"><a class="text-white hover:text-Primary_red" href="">About Us</a></li>
+           </ul>
+           </div>
+           <div class="item col-span-6 md:col-span-3 order-3">
+              <ul>
+                  <li class="pb-5"><a class="text-white hover:text-Primary_red" href="">Careers</a></li>
+                  <li class="pb-5"><a class="text-white hover:text-Primary_red" href="">Community</a></li>
+                  <li class="pb-5"><a class="text-white hover:text-Primary_red" href="">Privacy Policy</a></li>
+              </ul>
+           </div>
+           <div class="item col-span-12 md:col-span-3 order-0 md:order-4 pb-6">
+               <div class="contact_box flex gap-4 justify-center lg:justify-between">
+                   <label for=""></label>
+                   <input class="focus:border-none focus:outline-none p-3 pl-6 rounded-3xl" placeholder="Contact Us....." type="text">
+                   <button class="py-1 px-6 rounded-3xl bg-Primary_red text-white">Go</button>
+               </div>
+               <div class="absolute text-white bottom-12 right-[20%] md:bottom-28 md:right-2">
+                   <p>Copyright 2020. All Rights Reserved</p>
+               </div>
+           </div>
+           </div>
+        
+       </div>
+   </footer>
+   <!-- ================ footer end ================-->
+
+</body>
+
+<script src="script.js"></script>
+</html>
